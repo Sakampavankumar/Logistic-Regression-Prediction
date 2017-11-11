@@ -12,13 +12,14 @@ ad_data = pd.read_csv('advertising.csv')
 
 #Check the head of the data
 ad_data.head()
+#Output for this line of code can be viewed at: http://tinyurl.com/yauhb9h9
 
 #Use info and describe() on ad_data
 
 ad_data.info()
-
+#Output for this line of code can be viewed at : http://tinyurl.com/yct5awfx
 ad_data.describe()
-
+#Output for this line of code can be viewed at : http://tinyurl.com/y7o2gv2l
 #Exploratory Data Analysis
 #Let's use seaborn to explore the data!
 #Try recreating the plots shown below!
@@ -28,20 +29,24 @@ sns.set_style('whitegrid')
 ad_data['Age'].hist(bins=30)
 plt.xlabel('Age')
 
+#Output for this line of code can be viewed at : http://tinyurl.com/yc324ekg
+
 #Create a jointplot showing are income versus Age
 sns.jointplot(x='Age',y='Area Income',data=ad_data)
-
+#Output fo this line of code can be viewed at : http://tinyurl.com/y8ulf3dd
 
 #Create a jointplot showing the kde distributrions of Daily Time Spent on Site Vs Age 
 sns.jointplot(x='Age',y='Daily Time Spent on Site',data=ad_data,color='red',kind='kde')
-
+#Output for this line f code can be viewed at : http://tinyurl.com/yctt6q6r
 #Create a jointplot of 'Daily Time Spent on Site' vs. 'Daily Internet Usage'
 
 sns.jointplot(x='Daily Time Spent on Site',y='Daily Internet Usage',data=ad_data,color='green')
+#Output for this line of code can be viewed at : http://tinyurl.com/y8pud54z
 
 #Finally, create a pairplot with the hue defined by the 'Clicked on Ad' column feature.
 
 sns.pairplot(ad_data,hue='Clicked on Ad',palette='bwr')
+#Output for this line of code an be viewed at : http://tinyurl.com/y7fps9qp
 
 #Logistic Regression
 
@@ -77,6 +82,6 @@ predictions = logmodel.predict(X_test)
 from sklearn.metrics import classification_report
 
 print(classification_report(y_test,predictions))
-
+#Output for this line of code an be viewed at : http://tinyurl.com/y84rhuqn
 
 
