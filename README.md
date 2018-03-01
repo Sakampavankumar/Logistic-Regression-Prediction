@@ -4,7 +4,7 @@ In **logistic regression**, the dependent variable is binary or dichotomous, i.e
 
 The goal of logistic regression is to find the best fitting (yet biologically reasonable) model to describe the relationship between the dichotomous characteristic of interest (dependent variable = response or outcome variable) and a set of independent (predictor or explanatory) variables. Logistic regression generates the coefficients (and its standard errors and significance levels) of a formula to predict a logit transformation of the probability of presence of the characteristic of interest:
 
-_Logistic regression equation
+_Logistic regression equation_
 
 where p is the probability of presence of the characteristic of interest. The logit transformation is defined as the logged odds:
 
