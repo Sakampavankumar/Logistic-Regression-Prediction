@@ -26,6 +26,6 @@ Rather than choosing parameters that minimize the sum of squared errors (like in
 The assumption of linear predictor effects can easily be relaxed using techniques such as spline functions.
 
 
-#References: 
+**References:** 
 1) ![MedCalc](https://www.medcalc.org/manual/logistic_regression.php)
 2) ![Wikipedia](https://en.wikipedia.org/wiki/Logistic_regression)
