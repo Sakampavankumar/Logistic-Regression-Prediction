@@ -8,6 +8,16 @@ The goal of logistic regression is to find the best fitting (yet biologically re
 
 Logistic regression was developed by statistician David Cox in 1958.The binary logistic model is used to estimate the probability of a binary response based on one or more predictor (or independent) variables (features). It allows one to say that the presence of a risk factor increases the odds of a given outcome by a specific factor. The model is a direct probability model and not a classifier.
 
+##Logistic Regression Assumptions:
+
+   - Binary logistic regression requires the dependent variable to be binary.
+   - For a binary regression, the factor level 1 of the dependent variable should represent the desired outcome.
+   - Only the meaningful variables should be included.
+   - The independent variables should be independent of each other. That is, the model should have little or no       
+      multicollinearity.
+   - The independent variables are linearly related to the log odds.
+   - Logistic regression requires quite large sample sizes.
+
 
 Logistic regression generates the coefficients (and its standard errors and significance levels) of a formula to predict a logit transformation of the probability of presence of the characteristic of interest:
 
