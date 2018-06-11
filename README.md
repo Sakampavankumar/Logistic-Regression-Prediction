@@ -1,4 +1,4 @@
-# Logistic-Regression-Prediction
+# Prediction using Logistic Regression
 
 In **logistic regression**, the dependent variable is binary or dichotomous, i.e. it only contains data coded as 1 (TRUE, success, pregnant, etc.) or 0 (FALSE, failure, non-pregnant, etc.).
 
